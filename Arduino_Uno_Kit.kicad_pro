@@ -615,6 +615,18 @@
     [
       "8bdea5f6-7a53-427a-92b8-fd15994c2e8c",
       "Root"
+    ],
+    [
+      "bd06e611-a90c-429c-885c-4515ccd22350",
+      "USB-C Serial Interface"
+    ],
+    [
+      "24af9efb-6e0d-4a87-b2b3-ac4217c12f61",
+      "Power Supply"
+    ],
+    [
+      "2b26527d-964e-446b-af72-8ee39022758b",
+      "MicroController Unit"
     ]
   ],
   "text_variables": {

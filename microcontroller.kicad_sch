@@ -1,0 +1,6730 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "351112a1-3e49-4caa-90cf-ad491515d109")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Arduino_Uno_Kit-altium-import:+5V"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '+5V'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:0_ATMEGA328P-PU-A.6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0_ATMEGA328P-PU-A.6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC MICROCONTROLLER ATMEGA328P-PU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIL28-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0_ATMEGA328P-PU-A.6_1_0"
+				(rectangle
+					(start 12.7 27.94)
+					(end -15.24 -30.48)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input inverted
+					(at -20.32 25.4 0)
+					(length 5.08)
+					(name "RESET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 17.78 0)
+					(length 5.08)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 12.7 0)
+					(length 5.08)
+					(name "XTAL1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 7.62 0)
+					(length 5.08)
+					(name "AREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 5.08 0)
+					(length 5.08)
+					(name "AVCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 2.54 0)
+					(length 5.08)
+					(name "AGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -20.32 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 25.4 180)
+					(length 5.08)
+					(name "(SCK)PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 22.86 180)
+					(length 5.08)
+					(name "(MISO)PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 20.32 180)
+					(length 5.08)
+					(name "(MOSI)PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 17.78 180)
+					(length 5.08)
+					(name "(SS)PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "(OC1)PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "(ICP)PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "(ADC5)PC5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "(ADC4)PC4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "(ADC3)PC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "(ADC2)PC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "(ADC1)PC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "(ADC0)PC0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "(AIN1)PD7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "(AIN0)PD6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -15.24 180)
+					(length 5.08)
+					(name "(T1)PD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -17.78 180)
+					(length 5.08)
+					(name "(T0)PD4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -20.32 180)
+					(length 5.08)
+					(name "(INT1)PD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -22.86 180)
+					(length 5.08)
+					(name "(INT0)PD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -25.4 180)
+					(length 5.08)
+					(name "(TXD)PD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -27.94 180)
+					(length 5.08)
+					(name "(RXD)PD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:0_CMP-003-0010-A.2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0_CMP-003-0010-A.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN DIP 28 SOCKET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ICS-328-T-Footprint-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:1_Crystal"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1_Crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CRYSTAL 16.0000MHZ 20PF THD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "ECS-160-20-4X-DU-Footprint-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1_Crystal_1_0"
+				(polyline
+					(pts
+						(xy -1.524 0.381) (xy 1.524 0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.381) (xy -1.524 0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.016) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.381) (xy 1.524 -0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -0.381) (xy -1.524 -0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy -1.778 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -1.016) (xy -1.778 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:1_RES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1_RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES THD 1M OHM 1/4w  5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "A5217"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1_RES_1_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524) (xy 0.508 1.27) (xy -0.508 0.762) (xy 0.508 0.254) (xy -0.508 -0.254)
+						(xy 0.508 -0.762) (xy -0.508 -1.27) (xy 0 -1.524) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:2_CAP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "2_CAP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP THD 100NF 63V POLIESTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "B32529C0104J289"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2_CAP_1_0"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -4.318 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -2.032) (xy -4.318 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 2.032) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -3.302 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:3_CAP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3_CAP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP THD 100NF 63V POLIESTER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "B32529C0104J289"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3_CAP_1_0"
+				(polyline
+					(pts
+						(xy -2.032 -3.302) (xy 2.032 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 0 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.318) (xy -2.032 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:3_PB-TE"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3_PB-TE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PUSHBUTTON.6x6 CS Hatt0,7 NERO 160g"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW6X6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3_PB-TE_1_0"
+				(circle
+					(center -2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.445) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 3.175) (xy -1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.445) (xy 1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.635) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 4.445)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.127)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:3_PH2-06-UA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3_PH2-06-UA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN Header Through Hole 6 position 0.100\" (2.54mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "2X03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3_PH2-06-UA_1_0"
+				(rectangle
+					(start 2.54 -2.54)
+					(end -7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 270)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:3_RES"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3_RES"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES THD 10K 1/4W 5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "A5213"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3_RES_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.524) (xy -0.508 -1.27) (xy 0.508 -0.762) (xy -0.508 -0.254) (xy 0.508 0.254)
+						(xy -0.508 0.762) (xy 0.508 1.27) (xy 0 1.524) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Arduino_Uno_Kit-altium-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name 'GND'"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -3.302) (xy 1.778 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy 1.016 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -4.826) (xy 0.254 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 106.68 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a5fc583-0098-4299-b99a-efb6d886fc74")
+	)
+	(junction
+		(at 127 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18b44cfc-aa75-4c1c-88d4-5801bd5fc341")
+	)
+	(junction
+		(at 124.46 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1edfb627-df44-4e45-bb59-cb4ab3cc558c")
+	)
+	(junction
+		(at 99.06 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2ee454-fa0d-44ac-88b1-23cf12ef474b")
+	)
+	(junction
+		(at 190.5 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749d6f34-d10c-402c-b91d-35f5317d5c36")
+	)
+	(junction
+		(at 114.3 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "805a3640-33d5-4f70-80c0-0904c31234ad")
+	)
+	(junction
+		(at 99.06 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d80b8f9-c13b-42f8-b214-5c1f74f689bc")
+	)
+	(junction
+		(at 229.87 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4789d87-5fcb-4a89-a658-87f11a66cc61")
+	)
+	(junction
+		(at 114.3 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa69574a-f959-45e2-9ec8-e8f256b95209")
+	)
+	(junction
+		(at 124.46 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf74a581-7785-4bef-aa67-d4765a82da83")
+	)
+	(junction
+		(at 245.11 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3a6bb04-37cf-45ae-944b-05bacf07e625")
+	)
+	(junction
+		(at 127 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb30d4ad-e772-4b81-96d7-b89afa899f8a")
+	)
+	(wire
+		(pts
+			(xy 180.34 82.55) (xy 167.64 82.55)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "01d4429f-0f9c-4a55-b786-69ce990608e7")
+	)
+	(wire
+		(pts
+			(xy 106.68 120.65) (xy 106.68 118.11)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0361701e-6f9f-4cd3-b4cd-1ff04c23f19f")
+	)
+	(wire
+		(pts
+			(xy 127 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "04215390-d891-4538-b061-c71de76e4b6b")
+	)
+	(wire
+		(pts
+			(xy 180.34 128.27) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0a95310a-bee9-4628-afee-6784bf781148")
+	)
+	(wire
+		(pts
+			(xy 109.22 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "0c2f8bc7-1fd5-4501-81d1-f51f44a26814")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "11a46866-c881-4c49-90b6-a9c7ee582a5a")
+	)
+	(wire
+		(pts
+			(xy 129.54 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1317b4eb-7b39-4a37-9a93-2ef9210a8d03")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 127 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "13d28488-7cfa-491c-b12e-f1f66c252448")
+	)
+	(wire
+		(pts
+			(xy 180.34 95.25) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "16015e97-9c17-45ba-962d-c2db5261710d")
+	)
+	(wire
+		(pts
+			(xy 245.11 64.77) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "1ecd586b-1c7b-42b5-8eb6-a321f05e8a4c")
+	)
+	(wire
+		(pts
+			(xy 127 100.33) (xy 127 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "21022df6-fa9c-4617-92c5-5c98f65e29c4")
+	)
+	(wire
+		(pts
+			(xy 129.54 97.79) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "272600ac-37be-4ef5-8311-27817c2c6845")
+	)
+	(wire
+		(pts
+			(xy 180.34 80.01) (xy 167.64 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "28520d15-9ecb-4aba-9a28-f35dfcd586d8")
+	)
+	(wire
+		(pts
+			(xy 99.06 67.31) (xy 109.22 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "299846d3-bd47-4cd0-9b0c-425410a52551")
+	)
+	(wire
+		(pts
+			(xy 193.04 80.01) (xy 203.2 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2ab7f472-0123-4ddc-b800-80fdfba5a098")
+	)
+	(wire
+		(pts
+			(xy 180.34 100.33) (xy 167.64 100.33)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2e18159e-ead6-4ba7-9173-a9c5f5408b46")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "2e3f0180-f3ee-4da2-af38-909683c0218d")
+	)
+	(wire
+		(pts
+			(xy 198.12 105.41) (xy 195.58 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "320e2e04-e4b2-46f8-bca9-dc373cb138d8")
+	)
+	(wire
+		(pts
+			(xy 180.34 90.17) (xy 167.64 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "34f7db13-059a-4504-a425-c3eabdf1035a")
+	)
+	(wire
+		(pts
+			(xy 193.04 87.63) (xy 193.04 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "3ab0fbba-a50e-483c-9e45-c0a86db9826e")
+	)
+	(wire
+		(pts
+			(xy 109.22 90.17) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4059bd02-fc74-415b-be99-7e21a0af0955")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 190.5 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "44499d2d-11a3-4176-bf14-85ad49d674f7")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "44bb0975-b787-4802-850b-5f419f12eab6")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 129.54 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4a1cd8c4-5f1c-4a5d-abca-dcf658e6d87a")
+	)
+	(wire
+		(pts
+			(xy 180.34 105.41) (xy 167.64 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "4f28321b-4ae6-4396-9dd5-91ce3fa0ba80")
+	)
+	(wire
+		(pts
+			(xy 229.87 67.31) (xy 232.41 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "53052c58-0abd-48d4-b2d1-069558bf802a")
+	)
+	(wire
+		(pts
+			(xy 229.87 67.31) (xy 217.17 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "5fc40907-01af-45fa-82ec-2f3f713b89c0")
+	)
+	(wire
+		(pts
+			(xy 127 85.09) (xy 127 80.01)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6076067b-fe9f-4d42-aa07-15e6e84a92df")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 119.38 95.25)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "62c0f131-c400-4dfe-915b-9ef62ba55da6")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6372ef1f-503f-4f8c-8c88-2d27a50a25c6")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "6c1f1ed6-0a62-4ed8-abfe-4af4e07452c6")
+	)
+	(wire
+		(pts
+			(xy 190.5 67.31) (xy 190.5 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "714811fb-f87a-4ed8-86c2-0f7020bd98c2")
+	)
+	(wire
+		(pts
+			(xy 106.68 97.79) (xy 106.68 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "729641be-04d2-424e-848c-af4f8088164e")
+	)
+	(wire
+		(pts
+			(xy 229.87 67.31) (xy 229.87 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "77483122-0246-489b-b92d-772133298b3e")
+	)
+	(wire
+		(pts
+			(xy 180.34 125.73) (xy 167.64 125.73)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "78e5e963-ffbe-4bad-b4ab-7897f8ccd268")
+	)
+	(wire
+		(pts
+			(xy 245.11 67.31) (xy 242.57 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "7a6b46a0-9078-42ef-ba50-1831fbb43321")
+	)
+	(wire
+		(pts
+			(xy 129.54 100.33) (xy 127 100.33)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "87e32a0a-fc2a-4640-b557-41ce39212717")
+	)
+	(wire
+		(pts
+			(xy 180.34 85.09) (xy 167.64 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "8eb65d70-9f0e-480b-8ee4-d471848e792a")
+	)
+	(wire
+		(pts
+			(xy 190.5 67.31) (xy 190.5 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9175e1d6-5d3b-4d20-b996-9b6b44cc6c22")
+	)
+	(wire
+		(pts
+			(xy 127 107.95) (xy 127 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "917a9c29-4162-4591-9df7-9c3d9ed5d95e")
+	)
+	(wire
+		(pts
+			(xy 114.3 105.41) (xy 114.3 97.79)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9262fdd0-a59b-43e2-a7f2-7518a9062725")
+	)
+	(wire
+		(pts
+			(xy 124.46 90.17) (xy 116.84 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "93582e51-6371-4a71-8037-0859b6830be7")
+	)
+	(wire
+		(pts
+			(xy 180.34 102.87) (xy 167.64 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "95568159-361e-43b0-8e6c-69d1988c0750")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 167.64 87.63)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "95e8bf0a-84a3-4c5d-a24c-5ccfb0a28ada")
+	)
+	(wire
+		(pts
+			(xy 180.34 107.95) (xy 167.64 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9b75d265-84d0-41a2-b813-51bed9836106")
+	)
+	(wire
+		(pts
+			(xy 180.34 120.65) (xy 167.64 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9c3ec2ff-389c-4481-b06d-3a118010205e")
+	)
+	(wire
+		(pts
+			(xy 180.34 113.03) (xy 167.64 113.03)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "9f9ace09-9e22-44f9-b1f6-109d0bd4e312")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 127 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "a0977b6a-3345-4a16-b5ce-f1db66d03e96")
+	)
+	(wire
+		(pts
+			(xy 180.34 77.47) (xy 167.64 77.47)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "aa2be1c8-0eca-4874-bca4-f87ed01fd614")
+	)
+	(wire
+		(pts
+			(xy 229.87 64.77) (xy 232.41 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ad6683d0-df91-4d3a-8d3a-af96057bf548")
+	)
+	(wire
+		(pts
+			(xy 195.58 105.41) (xy 195.58 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "afc7bca6-1348-4186-a3e4-e18965d64a56")
+	)
+	(wire
+		(pts
+			(xy 180.34 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "b1cbdebd-2975-4b7c-bece-7ec47c8e5278")
+	)
+	(wire
+		(pts
+			(xy 247.65 67.31) (xy 245.11 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "bc23b07e-0dbe-49ea-9c65-ef7621b71e43")
+	)
+	(wire
+		(pts
+			(xy 114.3 97.79) (xy 106.68 97.79)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cd846480-f767-4cc4-a59d-3eef8aef495d")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 127 85.09)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "cdba511e-b878-4fdf-ab19-78d49473c6e5")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 167.64 130.81)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e0937ef9-1b75-43cf-ac95-37c222ad93b4")
+	)
+	(wire
+		(pts
+			(xy 127 67.31) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e0efe9f3-926a-4a32-ba16-417465ab7612")
+	)
+	(wire
+		(pts
+			(xy 99.06 90.17) (xy 99.06 97.79)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e3fd21ea-9513-478e-9eec-f13a2b022d06")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e56bf795-4d2e-4acc-9463-3b7db32f6d78")
+	)
+	(wire
+		(pts
+			(xy 242.57 64.77) (xy 245.11 64.77)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "e6054497-b375-4539-9fcf-5dbcf1301068")
+	)
+	(wire
+		(pts
+			(xy 190.5 113.03) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ea94cd77-7080-416e-b4e1-ecc647bf1808")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 167.64 118.11)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "ed7e2bdd-75b5-4897-928a-dae36d1275a6")
+	)
+	(wire
+		(pts
+			(xy 114.3 110.49) (xy 114.3 105.41)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "eda7f657-3b77-45eb-bd2e-291e69b57f08")
+	)
+	(wire
+		(pts
+			(xy 193.04 110.49) (xy 203.2 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f5d1b091-dc20-4e85-b191-ed98e09ca4fe")
+	)
+	(wire
+		(pts
+			(xy 114.3 118.11) (xy 114.3 120.65)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f6ffb510-bbfb-44c6-ad96-22966b080ce8")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "f7eaaa69-aa4e-4400-bc5c-ecaccb7d58c1")
+	)
+	(wire
+		(pts
+			(xy 193.04 102.87) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fab0aa44-529e-41a2-aebd-7d433a9f34d9")
+	)
+	(wire
+		(pts
+			(xy 99.06 80.01) (xy 99.06 90.17)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(uuid "fd8045f1-d9cf-4be8-a058-de76aa5698e2")
+	)
+	(label "DTR"
+		(at 99.06 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0119cd54-cc3a-45e5-9ac3-87bcc935f880")
+	)
+	(label "MOSI"
+		(at 195.58 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0cccb112-d519-46c0-8967-8e88c8bcbb0f")
+	)
+	(label "IO2"
+		(at 170.18 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0f6be04c-4433-4b50-9722-f69c9fb7538a")
+	)
+	(label "IO4"
+		(at 170.18 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "135ef31d-c84a-4b59-9da4-54c4b171883b")
+	)
+	(label "IO0"
+		(at 170.18 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17d1de62-e09a-4ef3-b6d6-063d81895698")
+	)
+	(label "RESET"
+		(at 190.5 80.01 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a55dca8-405b-4a1a-afc8-5370b2a55d25")
+	)
+	(label "MISO"
+		(at 170.18 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55dd9978-fe01-4c86-9b3d-b6733fd8a630")
+	)
+	(label "IO7"
+		(at 170.18 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "57d7f79c-9f85-42ab-85a8-49a43eb35c78")
+	)
+	(label "IO5"
+		(at 170.18 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5dcf2067-bcf0-49b3-972e-389bed04189c")
+	)
+	(label "AD3"
+		(at 170.18 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f599f3-9b64-4051-98e4-903355dd7b64")
+	)
+	(label "IO3"
+		(at 170.18 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a5b0d9b-4d92-4d58-8d47-916d9667c4b0")
+	)
+	(label "IO8"
+		(at 170.18 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a8d819d-4008-4ffe-acc5-5647cf0c37eb")
+	)
+	(label "AD5/SCL"
+		(at 170.18 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7579c10e-b528-47d2-a386-79a383d66600")
+	)
+	(label "MISO"
+		(at 195.58 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80753980-ed8a-45bf-b55e-5bd1b27126de")
+	)
+	(label "IO1"
+		(at 170.18 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86b51513-bf81-46ac-b974-edffe09e66ed")
+	)
+	(label "SCK"
+		(at 170.18 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8783a9d0-bc5a-43df-bf96-ef9703b04687")
+	)
+	(label "AD1"
+		(at 170.18 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97d8d2fb-94c3-4106-9fb3-a1c9868812c0")
+	)
+	(label "SS"
+		(at 170.18 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9986f612-aa29-4529-865c-84459ceec564")
+	)
+	(label "IO9"
+		(at 170.18 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9bf55e30-4fa5-4b84-b4db-44286d2203a5")
+	)
+	(label "AD4/SDA"
+		(at 170.18 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c7ae7a8-e2a7-4d34-aacd-4c10399dad65")
+	)
+	(label "SCK"
+		(at 195.58 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a14df3ec-df4e-4ff5-9a2f-33595c2b5b95")
+	)
+	(label "MOSI"
+		(at 170.18 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bad29238-96b2-4838-ad44-e3ecb9a75326")
+	)
+	(label "AD0"
+		(at 170.18 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7912312-3b5a-4ab1-a80e-b20346efeaa4")
+	)
+	(label "RESET"
+		(at 224.79 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cc8942e8-63ea-4ef7-aa34-8dac625a498d")
+	)
+	(label "AD2"
+		(at 170.18 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd495c19-63f7-41f2-b39a-559ec9206ea3")
+	)
+	(label "AREF"
+		(at 119.38 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5755b9d-1988-46bd-8413-3fccf8d35f14")
+	)
+	(label "IO6"
+		(at 170.18 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e380b038-f5ed-4e4c-a7f0-f3dd54b5c206")
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:3_PH2-06-UA")
+		(at 195.58 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2905eebd-2040-4cd8-9042-a87789db3777")
+		(property "Reference" "J9"
+			(at 200.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PH2-06-UA"
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "2X03"
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "SOURCE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT LOCATION" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ELV" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOR" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TERMINATION" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "USB STANDARD" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LENGTH" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATERIAL" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR TYPE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONDUCTORS" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB MOUNT ALIGNMENT" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT MATING LENGTH" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STACK HEIGHT" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FLAMMABILITY RATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIDTH" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "PH2-06-UA"
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INSULATION COLOR" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CIRCUIT APPLICATION" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MATING ALIGNMENT" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT CURRENT RATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX CURRENT RATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT RATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INSULATION RESISTANCE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DESIGN ITEM ID" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT RESISTANCE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PLATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEPTH" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SEALABLE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HEIGHT" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FASTENING TYPE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PORTS" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MATING CYCLES" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB MOUNTING ORIENTATION" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CODE ARDUINO" "0114"
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 3" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE RATING (AC)" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING COLOR" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PCB MOUNT RETENTION" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PIN COUNT" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WIRE/CABLE TYPE" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ORIENTATION" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONNECTOR SYSTEM" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX VOLTAGE RATING (AC)" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF ROWS" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX VOLTAGE RATING (DC)" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ACTUATOR MATERIAL" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROW SPACING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MATED STACKING HEIGHTS" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MATERIAL" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "REACH SVHC" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SHIELDING" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE QUANTITY" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF POSITIONS" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "GENDER" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF CONTACTS" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "HOUSING MATERIAL" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SHROUDED" ""
+			(at 187.96 87.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df2257d-f381-4c12-9f5f-a8569abf1774")
+		)
+		(pin "2"
+			(uuid "50db6e05-2361-40f2-a6a1-e40104dd9a0e")
+		)
+		(pin "3"
+			(uuid "63ee7e60-17a2-43d1-9b1c-357f688b9d9f")
+		)
+		(pin "4"
+			(uuid "3df1d3e8-c26c-4500-9903-e61f2b67a280")
+		)
+		(pin "5"
+			(uuid "2e2950d3-4aed-4803-b152-d69238108900")
+		)
+		(pin "6"
+			(uuid "98731b0d-d300-468e-9dfc-59c718f414ae")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:1_RES")
+		(at 190.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3dcd4431-1584-4fa2-959b-22d4ed93cf38")
+		(property "Reference" "R7"
+			(at 193.04 59.944 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0-1623930-3"
+			(at 191.262 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "A5213"
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CODE ARDUINO" "A5213"
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "10k"
+			(at 193.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "POWER" "250mW"
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE connectivity"
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "0-1623930-3"
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 189.738 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71f4ad9-df0b-48f2-9e6b-f9c3fce4a50f")
+		)
+		(pin "2"
+			(uuid "baa38410-ed86-45f7-96a6-f4d09da40e1a")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:0_CMP-003-0010-A.2")
+		(at 134.62 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49f6106d-08b3-464d-bda6-87b38098cf37")
+		(property "Reference" "J4"
+			(at 134.62 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ICS-328-T"
+			(at 134.62 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "ICS-328-T-Footprint-1"
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CODE ARDUINO" "0064"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PIN COUNT" "0"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PITCH" "2.54mm"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" "Lead Free"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Adam Tech"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "ICS-328-T"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" "Through Hole"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CONTACT PLATING" "Copper,Tin"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:3_RES")
+		(at 99.06 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b90eec3-b516-4f83-b1d4-79b5f99f981c")
+		(property "Reference" "R6"
+			(at 101.6 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2-1623930-9"
+			(at 99.822 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "A5215"
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CODE ARDUINO" "A5215"
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "1K"
+			(at 101.6 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "POWER" "250mW"
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TE connectivity"
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "2-1623930-9"
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 98.298 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e76b6668-667a-4b39-a6dd-c2a382462947")
+		)
+		(pin "2"
+			(uuid "06cc154f-ca35-4672-9886-057ee23d1299")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:GND")
+		(at 99.06 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ebec00c-938a-4e92-a42e-33b79b89d852")
+		(property "Reference" "#PWR013"
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "b29a8079-0f84-4933-8d9d-5c9e605f7cd3")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:GND")
+		(at 114.3 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dd25f72-fe42-4fd8-b4c9-d8f453a6475d")
+		(property "Reference" "#PWR016"
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "78b15532-f110-49c0-989d-485031a65015")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:2_CAP")
+		(at 116.84 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "788470a7-f4f5-4822-bd86-786483e2c7ba")
+		(property "Reference" "C10"
+			(at 111.76 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS170R1H220JSANB0R"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TS170R1H220JSANB0R"
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CODE ARDUINO" "C0124"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "22pF"
+			(at 110.998 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART NUMBER" "TS170R1H220JSANB0R"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "P : 5.08 Ammo"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Suntan"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 108.712 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c2ca45f-a53b-4178-bea6-114efb98018e")
+		)
+		(pin "2"
+			(uuid "5a81654a-cfd6-427d-a23d-7cfea810e602")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:+5V")
+		(at 198.12 105.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ee8563b-2350-45ce-8ad5-3afe2d1909e6")
+		(property "Reference" "#PWR020"
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 201.93 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "968d0f4c-8661-4e3c-9b56-8961ddf9556a")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:2_CAP")
+		(at 116.84 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8a024e95-d971-4a1f-a0e6-07863c2285ea")
+		(property "Reference" "C15"
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS170R1H220JSANB0R"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TS170R1H220JSANB0R"
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CODE ARDUINO" "C0124"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "22pF"
+			(at 111.252 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART NUMBER" "TS170R1H220JSANB0R"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "P : 5.08 Ammo"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Suntan"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "50V"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 108.712 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14885aa6-a4d6-43f2-83f9-551d1f1f1588")
+		)
+		(pin "2"
+			(uuid "c573fac0-b367-4cb6-a793-d5dda07e6ab3")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:GND")
+		(at 106.68 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98af5e22-3daa-45b4-b053-25a20f0205eb")
+		(property "Reference" "#PWR015"
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "325dec70-e22a-467f-9e3b-5c34c47e77aa")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:2_CAP")
+		(at 116.84 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b3372bc-3439-4a77-a63a-27a4f1f239b9")
+		(property "Reference" "C9"
+			(at 111.252 61.468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B32529C0104J289"
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "B32529C0104J289"
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CODE ARDUINO" "0080"
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 110.49 64.262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART NUMBER" "B32529C0104J289"
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EPCOS"
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "63V"
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 108.712 65.024 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5960ba27-c339-45ea-ab61-a7c60778a783")
+		)
+		(pin "2"
+			(uuid "ddde580f-787d-45e8-b15f-009aaaeadfac")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:0_ATMEGA328P-PU-A.6")
+		(at 149.86 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a656dd63-b912-4f1a-860a-0e1936a0f4dc")
+		(property "Reference" "U2"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ATMEGA328P-PU"
+			(at 134.62 74.422 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "DIL28-3"
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PIN COUNT" "28"
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX SUPPLY VOLTAGE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OUTPUT TYPE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS COMPLIANCE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Microchip"
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LEAD FREE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DEVICE TYPE" "MCU"
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DATA RATE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CODE ARDUINO" "ATMEGA328P-PU"
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ROHS CERTIFICATE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT - RECEIVING" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "ATMEGA328P-PU"
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "NUMBER OF PINS" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGING" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CURRENT - TRANSMITTING" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN SUPPLY VOLTAGE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "INTERFACE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SENSOR TYPE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "OPERATING SUPPLY VOLTAGE" ""
+			(at 129.032 72.136 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23bb7c04-760e-439d-8b5c-447ca4187bc0")
+		)
+		(pin "10"
+			(uuid "1a6b9482-0af9-4989-91b7-dcccca7691e8")
+		)
+		(pin "11"
+			(uuid "2c8bb0cb-fd1f-49a6-a6db-768ae42aed44")
+		)
+		(pin "12"
+			(uuid "1c7d56ba-d867-499d-90d4-102242ab3b68")
+		)
+		(pin "13"
+			(uuid "2d5aab74-ffd9-4e8b-a82d-962dede3ae4f")
+		)
+		(pin "14"
+			(uuid "143b422b-a228-423d-97c6-dec1a0f573b2")
+		)
+		(pin "15"
+			(uuid "5f8ce505-a22b-4697-be03-f857239440ec")
+		)
+		(pin "16"
+			(uuid "477d455d-f4b4-4b3f-aff3-8c537a0ba0a5")
+		)
+		(pin "17"
+			(uuid "93ca1d51-b29c-434c-b06e-b638f8305d35")
+		)
+		(pin "18"
+			(uuid "3b7adf0f-2227-49f9-8776-11512f593691")
+		)
+		(pin "19"
+			(uuid "649542a1-26c1-40e4-a8ed-37f65dec6962")
+		)
+		(pin "2"
+			(uuid "65b20eb3-aef3-4dd7-83a3-302baa5ff4e6")
+		)
+		(pin "20"
+			(uuid "641c860c-7a61-447c-9413-2ff6cb11a708")
+		)
+		(pin "21"
+			(uuid "d9efe9b1-fbb0-46ca-af6d-2e797b117b32")
+		)
+		(pin "22"
+			(uuid "d3b4cb2c-45d5-4072-98bb-3ce8b084583d")
+		)
+		(pin "23"
+			(uuid "322aa189-4b51-4216-9f2a-2f5283e0d00a")
+		)
+		(pin "24"
+			(uuid "0dcdca04-8d8d-4cac-ac62-610f4317f95c")
+		)
+		(pin "25"
+			(uuid "73f5c231-4d45-4efe-ac2c-eeaf61f700a8")
+		)
+		(pin "26"
+			(uuid "1389512d-3940-4f94-8ab3-7f492bc18ba1")
+		)
+		(pin "27"
+			(uuid "b59989a8-248b-4150-9cbf-2f9ac36f4a1c")
+		)
+		(pin "28"
+			(uuid "d1b25d2f-21ea-43ec-be78-95da2b827766")
+		)
+		(pin "3"
+			(uuid "7eb92d7b-c69b-44e8-8e36-7044c0a1c540")
+		)
+		(pin "4"
+			(uuid "0be18261-e013-44d3-a603-1165850e8239")
+		)
+		(pin "5"
+			(uuid "351522d6-c548-4f02-9230-06e9c55cb1cb")
+		)
+		(pin "6"
+			(uuid "331e0677-11a8-4abf-8e0a-11ea46484b2a")
+		)
+		(pin "7"
+			(uuid "0cae99d2-c162-4025-a9cc-aef6a37832ec")
+		)
+		(pin "8"
+			(uuid "80e1edaa-842e-44c2-af10-832483c63819")
+		)
+		(pin "9"
+			(uuid "6dcbd3e4-b2bd-4af3-9226-2a250dc47629")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:+5V")
+		(at 106.68 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a88f9e18-de91-4510-93f7-e36cbc3e5a43")
+		(property "Reference" "#PWR014"
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "04b823cc-d790-4b99-b08f-7edd3b1e7454")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:GND")
+		(at 247.65 67.31 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bedc6acc-b583-4a40-b313-1214b95efea3")
+		(property "Reference" "#PWR023"
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 247.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "213ef9a5-c73d-4b43-9520-8a9f8462410c")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:3_PB-TE")
+		(at 237.49 64.77 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bef42bb9-0dc4-463d-8ae8-9db177f55708")
+		(property "Reference" "PB2"
+			(at 239.268 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "TS21043-160B-5227260"
+			(at 240.284 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SW6X6"
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MECHANICAL LIFE" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PART NUMBER" "TS21043-160B-5227260"
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ACTUATOR TYPE" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MOUNT" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "COLOR" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CODE ARDUINO" "0089"
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 243.078 60.071 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "360915b5-f85a-499a-a88f-c043173ca3e9")
+		)
+		(pin "2"
+			(uuid "2052f672-4aa9-41e2-9181-a5375cd404c2")
+		)
+		(pin "3"
+			(uuid "5c4e6954-d988-492e-a95e-949e88493d86")
+		)
+		(pin "4"
+			(uuid "51e2a4bd-b400-442e-b03a-5278bb46a381")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "PB2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:1_Crystal")
+		(at 124.46 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfda320f-087d-4806-b556-cbf685dd603e")
+		(property "Reference" "Y2"
+			(at 118.872 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "ECS-160-20-4X-DU"
+			(at 126.492 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ECS-160-20-4X-DU-Footprint-1"
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PART NUMBER" "ECS-160-20-4X-DU"
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "WEIGHT" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LOAD CAPACITANCE" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ESR (EQUIVALENT SERIES RESISTANCE)" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY STABILITY" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SERIES RESISTANCE" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MAX OPERATING TEMPERATURE" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CODE ARDUINO" "0019"
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "FREQUENCY TOLERANCE" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "ECS"
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RADIATION HARDENING" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MIN OPERATING TEMPERATURE" ""
+			(at 122.428 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffac4af9-f1bf-4189-94ed-6fbe6e5d218f")
+		)
+		(pin "2"
+			(uuid "d3e03b6b-3024-424a-84fb-1e6781fb3052")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:+5V")
+		(at 190.5 54.61 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c0615375-a5a8-4bd5-b4a7-56cc5cfc7379")
+		(property "Reference" "#PWR018"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "17b5224e-26cd-44f9-98f6-a38357ebcb16")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:GND")
+		(at 127 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c80a3bfc-7087-4db6-aed1-a7546fb34d8c")
+		(property "Reference" "#PWR017"
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d7b556bf-d049-469d-9a66-8cf19ace166e")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:3_CAP")
+		(at 114.3 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5dd1b63-0a2a-494b-9e08-0f37c511bc4d")
+		(property "Reference" "C7"
+			(at 117.602 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B32529C0104J289"
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "B32529C0104J289"
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CODE ARDUINO" "0080"
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 116.84 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART NUMBER" "B32529C0104J289"
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EPCOS"
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "63V"
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 112.014 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e77c172-16e9-4a5e-b65b-e1827169a92e")
+		)
+		(pin "2"
+			(uuid "b16eb04b-b54a-4bc6-8028-fc0b6b8fa496")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:3_CAP")
+		(at 106.68 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed707ac2-3eb5-42e2-86fc-9b55c5fc1576")
+		(property "Reference" "C6"
+			(at 99.06 114.046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "B32529C0104J289"
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "B32529C0104J289"
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "CODE ARDUINO" "0080"
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER 2" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (IMPERIAL)" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ALTIUM_VALUE" "100nF"
+			(at 97.536 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "PART NUMBER" "B32529C0104J289"
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "EPCOS"
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "DIELECTRIC" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE/PACKAGE" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "63V"
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "CASE CODE (METRIC)" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "TOLERANCE" "5%"
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER PART NUMBER 2" ""
+			(at 104.394 109.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae560fb7-a97c-46af-9d3e-b91194355fef")
+		)
+		(pin "2"
+			(uuid "931f1855-b42c-48a2-97e4-7b487fe85299")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Arduino_Uno_Kit-altium-import:GND")
+		(at 190.5 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef2d1560-33ad-4d31-8038-643fe9bffc20")
+		(property "Reference" "#PWR019"
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "6af14837-9dd7-4dcb-a32e-d1962ab132ef")
+		)
+		(instances
+			(project "Arduino_Uno_Kit"
+				(path "/8bdea5f6-7a53-427a-92b8-fd15994c2e8c/2b26527d-964e-446b-af72-8ee39022758b"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
